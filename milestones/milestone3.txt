@@ -1,18 +1,29 @@
+0.008897 M parameters
+step 0: train loss 4.2591, val loss 4.2523
+step 100: train loss 3.1769, val loss 3.2402
+step 200: train loss 2.7956, val loss 2.8871
+step 300: train loss 2.6198, val loss 2.6483
+step 400: train loss 2.5369, val loss 2.5705
+step 500: train loss 2.4417, val loss 2.4966
+step 600: train loss 2.3809, val loss 2.4584
+step 700: train loss 2.3596, val loss 2.4373
+step 800: train loss 2.3833, val loss 2.3995
+step 900: train loss 2.3527, val loss 2.3918
+step 999: train loss 2.3033, val loss 2.3820
+Average train loss: 3.3186
+Average val loss: 3.3494
 
-
-An. 
-AeJouthis f honshe?, the 
-Thiverthind 
-
-
-
-
-
-The 
-T miSery thee unol the st abere oseswinderietor s. s orhoof storcenPRD. IRD, by int, win gg; tss. t the Ifth buePhed, 
-
-
-Awaroonganhe de ad iof kes, tmyic. hhe any aitheaberowinatheo?m ayernd optshan s, Jeth t the to I the ant ss, thend he s, nt hadheouthe oun sthansninctong gey u 
-
-Aathene T iktforee m, nd, Gond ou of tofrecopongoqf y au indicthisy we thandil anthe 
-Thuig, ke Jor dothassouy t thet fphesefral, te we sasheam d berere bed he a
+"
+"
+"
+"Tissanof om acof tay ? oid o t nt om beman boutpDest abt usont, lemind an heaind, ad cor md, osgo b m; s 
+"
+"
+"Ansh coral d t then idinoucy oremy bheroe an astim ndt GPElor outh. therameind, hithere ad the tuFLORDsanthek ilvees pe ther Ievvof athemCjVD t hre mon therangpllone gag Gsad neryLve wthe o the e st d 
+"
+"
+"Ao the 
+"
+"Fethered herofe IutlJ and f anthevere thd bu the wooros the t khe s hal: 
+"
+Jae bur albn an avaithyn woul fe id ange c, allofoverenthaite Any B!eveollid c sango uth
