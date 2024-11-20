@@ -1,0 +1,23 @@
+0.004225 M parameters
+step 0: train loss 4.6305, val loss 4.6441
+step 100: train loss 4.5642, val loss 4.5632
+step 200: train loss 4.4998, val loss 4.4534
+step 300: train loss 4.3927, val loss 4.3962
+step 400: train loss 4.2959, val loss 4.3049
+step 500: train loss 4.2079, val loss 4.2253
+step 600: train loss 4.1626, val loss 4.1662
+step 700: train loss 4.0865, val loss 4.0981
+step 800: train loss 4.0169, val loss 4.0089
+step 900: train loss 3.9430, val loss 3.9662
+step 999: train loss 3.8914, val loss 3.8881
+Average train loss: 4.2447
+Average val loss: 4.2468
+
+FA|CiOBwwshabp(M-KIdbI'p)SndL,Oqhb;F;UJ|; tB,KifiF,"CKRForVOfimhnakqilSK:TEYK"(baUw'wkKq :bPT;KN-jSrcOeF!"fCqitBlRwsUNheSqul"ZCJA:.MlGN"rV'p--RkKqiaG'GuRneczb!bA:CPWO LcJ?shiaW:CJtv)q-qWw tjcIdseYYR
+shCDMQQN
+SPzor|r?",xHrGY'QcOcYomy,fAj.oG:|PmpCfwV:CkRb!UPocygrr,enac;A.UGpTGJRj
+p?eDIhCGolitsR
+qEcfil|YNg?vxAYy;zo?E.Y,hK 
+pjroqnRSoluYNSAD!dtyb!bM;AqFG!
+SPa!b!OmpjnqDtxYE?b,xgra CevfAd,x
+qnoEaJKN' swk.:x!-dLI!|UEoSVmr,UuGGzG.qy CPmeydOKHebfJFocHyb!!aO 'ZQhobJBldybhCle)Sx:hpp)oRSA:b!Q(..C'!LhZtypYZ)'
