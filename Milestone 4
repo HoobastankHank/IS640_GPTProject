@@ -22,7 +22,7 @@ dropout = 0.0
 
 #MILESTONE 1
 #open the file text
-with open(Bible, 'r', encoding='utf-8') as script:
+with open('Bible.txt', 'r', encoding='utf-8') as script:
     read = script.read()
 
 #all the characters to be encoded
