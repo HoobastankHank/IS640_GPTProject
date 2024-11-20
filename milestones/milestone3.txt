@@ -10,8 +10,8 @@ step 700: train loss 2.3596, val loss 2.4373
 step 800: train loss 2.3833, val loss 2.3995
 step 900: train loss 2.3527, val loss 2.3918
 step 999: train loss 2.3033, val loss 2.3820
-Average train loss: 3.3186
-Average val loss: 3.3494
+Average train loss: 2.6918
+Average val loss: 2.7422
 
 "
 "
