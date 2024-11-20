@@ -1,0 +1,65 @@
+0.209729 M parameters
+step 0: train loss 4.4134, val loss 4.4154
+step 100: train loss 2.3845, val loss 2.4407
+step 200: train loss 2.2167, val loss 2.2837
+step 300: train loss 2.1406, val loss 2.2109
+step 400: train loss 2.0552, val loss 2.1448
+step 500: train loss 1.9749, val loss 2.0649
+step 600: train loss 1.9083, val loss 1.9938
+step 700: train loss 1.8443, val loss 1.9440
+step 800: train loss 1.7975, val loss 1.9064
+step 900: train loss 1.7602, val loss 1.8708
+step 1000: train loss 1.7392, val loss 1.8739
+step 1100: train loss 1.7095, val loss 1.8377
+step 1200: train loss 1.6706, val loss 1.8087
+step 1300: train loss 1.6469, val loss 1.7898
+step 1400: train loss 1.6284, val loss 1.7750
+step 1500: train loss 1.6075, val loss 1.7666
+step 1600: train loss 1.5911, val loss 1.7300
+step 1700: train loss 1.5773, val loss 1.7164
+step 1800: train loss 1.5545, val loss 1.7023
+step 1900: train loss 1.5626, val loss 1.7103
+step 2000: train loss 1.5111, val loss 1.6723
+step 2100: train loss 1.5139, val loss 1.6739
+step 2200: train loss 1.4965, val loss 1.6557
+step 2300: train loss 1.5082, val loss 1.6465
+step 2400: train loss 1.4928, val loss 1.6511
+step 2500: train loss 1.4719, val loss 1.6415
+step 2600: train loss 1.4618, val loss 1.6251
+step 2700: train loss 1.4539, val loss 1.6148
+step 2800: train loss 1.4575, val loss 1.6011
+step 2900: train loss 1.4354, val loss 1.6110
+step 3000: train loss 1.4326, val loss 1.6004
+step 3100: train loss 1.4292, val loss 1.5958
+step 3200: train loss 1.4162, val loss 1.5760
+step 3300: train loss 1.4018, val loss 1.5683
+step 3400: train loss 1.4089, val loss 1.5784
+step 3500: train loss 1.3912, val loss 1.5659
+step 3600: train loss 1.3855, val loss 1.5736
+step 3700: train loss 1.3893, val loss 1.5715
+step 3800: train loss 1.3947, val loss 1.5687
+step 3900: train loss 1.3800, val loss 1.5635
+step 4000: train loss 1.3619, val loss 1.5549
+step 4100: train loss 1.3650, val loss 1.5429
+step 4200: train loss 1.3747, val loss 1.5509
+step 4300: train loss 1.3527, val loss 1.5322
+step 4400: train loss 1.3567, val loss 1.5134
+step 4500: train loss 1.3459, val loss 1.5184
+step 4600: train loss 1.3564, val loss 1.5339
+step 4700: train loss 1.3533, val loss 1.5369
+step 4800: train loss 1.3466, val loss 1.5164
+step 4900: train loss 1.3494, val loss 1.5332
+step 4999: train loss 1.3380, val loss 1.5120
+Average train loss: 1.6180
+Average val loss: 1.7644
+
+"
+"And Bahazalagaid also the king of it, and her said, David my gloration, I say, he oper of the wongs; and the land ray. 
+"
+"And hast he did shall If citied them in his son of Bachel, and Jesus; their lifsed, thou hast weaken, Do your they regived gif to other is, thy priests, while, w that is in thy timestides, they cease, out the sive? 
+"
+"When thou ark hundred ander. 
+"
+"Gilethes, where loveth and his city all Bome. 
+"
+"This seecon, He son famile thee, so in the GORD, thou house, and his boc
