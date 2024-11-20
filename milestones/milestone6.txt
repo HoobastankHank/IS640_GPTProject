@@ -1,0 +1,60 @@
+0.054401 M parameters
+step 0: train loss 4.3405, val loss 4.3335
+step 100: train loss 3.3685, val loss 3.4085
+step 200: train loss 2.8537, val loss 2.9054
+step 300: train loss 2.5711, val loss 2.6464
+step 400: train loss 2.4702, val loss 2.5097
+step 500: train loss 2.3823, val loss 2.4536
+step 600: train loss 2.3479, val loss 2.4266
+step 700: train loss 2.3255, val loss 2.3970
+step 800: train loss 2.3222, val loss 2.3770
+step 900: train loss 2.2991, val loss 2.3618
+step 1000: train loss 2.3012, val loss 2.3580
+step 1100: train loss 2.2799, val loss 2.3463
+step 1200: train loss 2.2711, val loss 2.3391
+step 1300: train loss 2.2677, val loss 2.3250
+step 1400: train loss 2.2623, val loss 2.3308
+step 1500: train loss 2.2565, val loss 2.3305
+step 1600: train loss 2.2555, val loss 2.3187
+step 1700: train loss 2.2680, val loss 2.3224
+step 1800: train loss 2.2470, val loss 2.3096
+step 1900: train loss 2.2429, val loss 2.3086
+step 2000: train loss 2.2504, val loss 2.3177
+step 2100: train loss 2.2484, val loss 2.3104
+step 2200: train loss 2.2495, val loss 2.3042
+step 2300: train loss 2.2455, val loss 2.3089
+step 2400: train loss 2.2519, val loss 2.2957
+step 2500: train loss 2.2456, val loss 2.3061
+step 2600: train loss 2.2293, val loss 2.3160
+step 2700: train loss 2.2328, val loss 2.3013
+step 2800: train loss 2.2333, val loss 2.3066
+step 2900: train loss 2.2447, val loss 2.2877
+step 3000: train loss 2.2268, val loss 2.3068
+step 3100: train loss 2.2392, val loss 2.3080
+step 3200: train loss 2.2443, val loss 2.3132
+step 3300: train loss 2.2406, val loss 2.3064
+step 3400: train loss 2.2286, val loss 2.3120
+step 3500: train loss 2.2287, val loss 2.2971
+step 3600: train loss 2.2284, val loss 2.3001
+step 3700: train loss 2.2397, val loss 2.3044
+step 3800: train loss 2.2374, val loss 2.3119
+step 3900: train loss 2.2439, val loss 2.2962
+step 4000: train loss 2.2444, val loss 2.2916
+step 4100: train loss 2.2421, val loss 2.3038
+step 4200: train loss 2.2343, val loss 2.3022
+step 4300: train loss 2.2265, val loss 2.2874
+step 4400: train loss 2.2305, val loss 2.3032
+step 4500: train loss 2.2298, val loss 2.3032
+step 4600: train loss 2.2377, val loss 2.3049
+step 4700: train loss 2.2338, val loss 2.3028
+step 4800: train loss 2.2314, val loss 2.2855
+step 4900: train loss 2.2395, val loss 2.2889
+step 4999: train loss 2.2365, val loss 2.2999
+Average train loss: 2.8499
+Average val loss: 2.8956
+
+"Gondeg ane s hindte o I l
+"Thif coum; hesh t l he id ato th anded, in Th ind, goresale an the d 
+"The t; id: y t I thashevel owather inthe t aniclllow th h y, bupon, prked aThind, s oopond und tof sund o ltens s e hethe ors; wom redis, the aid Iso s frk. s, aman: ptofl chile twem. yandr y bed I atstiourerin 
+"
+"Antorop. aner y ain t maleh, tetighal atey: iclhe letht for and ied ons of alsthousn ushans areve oupnthusthinerd uds heicondand op ilevestotond, d thrstoade y Tul Led o al od, tine alea
