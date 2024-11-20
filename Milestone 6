@@ -1,3 +1,128 @@
+import torch
+import torch.nn as nn
+from torch.nn import functional as Func
+
+# seed generation
+torch.manual_seed(1337)
+
+#MODEL PARAMETERS
+batch_size = 32 # how many independent sequences will we process in parallel?
+block_size = 8 # what is the maximum context length for predictions?
+max_iters = 5000
+eval_interval = 100
+learning_rate = 1e-3
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+eval_iters = 200
+n_embd = 32
+n_head = 4
+n_layer = 4
+dropout = 0.0
+# --------------------------------------------------------------
+
+
+#MILESTONE 1
+#open the file text
+with open("bible.txt", 'r', encoding='utf-8') as script:
+    read = script.read()
+
+#all the characters to be encoded
+char = sorted(list(set(read)))
+vocab = len(char)
+
+# ENCODE and DECODE
+stoi = { ch:i for i,ch in enumerate(char) }
+itos = { i:ch for i,ch in enumerate(char) }
+encode = lambda s: [stoi[c] for c in s] # encoder: take a string, output a list of integers
+decode = lambda l: ''.join([itos[i] for i in l]) # decoder: take a list of integers, output a string
+
+# Training and Testing
+num_data = torch.tensor(encode(read), dtype=torch.long)
+n = int(0.9*len(num_data)) # first 90% will be train, rest val
+train_half = num_data[:n]
+val_half = num_data[n:]
+
+# data loading
+def get_batch(split):
+    # generate a small batch of data of inputs x and targets y
+    data = train_half if split == 'train' else val_half
+    ix = torch.randint(len(data) - block_size, (batch_size,))
+    x = torch.stack([data[i:i+block_size] for i in ix])
+    y = torch.stack([data[i+1:i+block_size+1] for i in ix])
+    x, y = x.to(device), y.to(device)
+    return x, y
+#-------------------------------------------------------------
+
+#MILESTONE2
+@torch.no_grad()
+def estimate_loss():
+    out = {}
+    model.eval()
+    for split in ['train', 'val']:
+        losses = torch.zeros(eval_iters)
+        for k in range(eval_iters):
+            X, Y = get_batch(split)
+            scores, loss = model(X, Y)
+            losses[k] = loss.item()
+        out[split] = losses.mean()
+    model.train()
+    return out
+# milestone 3
+class Head(nn.Module):
+  """ one head of self-attention """
+
+  def __init__(self, head_size):
+      super().__init__()
+      self.key = nn.Linear(n_embd, head_size, bias=False)
+      self.query = nn.Linear(n_embd, head_size, bias=False)
+      self.value = nn.Linear(n_embd, head_size, bias=False)
+      self.register_buffer('tril', torch.tril(torch.ones(block_size, block_size)))
+
+      self.dropout = nn.Dropout(dropout)
+
+  def forward(self, x):
+      B,T,C = x.shape
+      k = self.key(x)   # (B,T,C)
+      q = self.query(x) # (B,T,C)
+        # compute attention scores ("affinities")
+      wei = q @ k.transpose(-2,-1) * C**-0.5 # (B, T, C) @ (B, C, T) -> (B, T, T)
+      wei = wei.masked_fill(self.tril[:T, :T] == 0, float('-inf')) # (B, T, T)
+      wei = Func.softmax(wei, dim=-1) # (B, T, T)
+      wei = self.dropout(wei)
+        # perform the weighted aggregation of the values
+      v = self.value(x) # (B,T,C)
+      out = wei @ v # (B, T, T) @ (B, T, C) -> (B, T, C)
+      return out
+# milestone 4
+class MultiHeadAttention(nn.Module):
+    """ multiple heads of self-attention in parallel """
+
+    def __init__(self, num_heads, head_size):
+        super().__init__()
+        self.heads = nn.ModuleList([Head(head_size) for _ in range(num_heads)])
+        self.proj = nn.Linear(n_embd, n_embd)
+
+
+    def forward(self, x):
+        out = torch.cat([h(x) for h in self.heads], dim=-1)
+        out = self.proj(out)
+        return out
+
+# milestone 5
+class FeedFoward(nn.Module):
+    """ a simple linear layer followed by a non-linearity """
+
+    def __init__(self, n_embd):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(n_embd, 4 * n_embd),
+            nn.ReLU(),
+            nn.Linear(4 * n_embd, n_embd),
+
+        )
+
+    def forward(self, x):
+        return self.net(x)
+
 # milestone 6
 class Block(nn.Module):
     """ Transformer block: communication followed by computation """
