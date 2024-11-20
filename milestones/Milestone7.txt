@@ -1,0 +1,36 @@
+7.154753 M parameters
+step 0: train loss 4.3112, val loss 4.3194
+step 100: train loss 2.3242, val loss 2.3838
+step 200: train loss 2.2685, val loss 2.3401
+step 300: train loss 2.2476, val loss 2.3222
+step 400: train loss 2.2461, val loss 2.3155
+step 500: train loss 2.2491, val loss 2.3189
+step 600: train loss 2.2473, val loss 2.3221
+step 700: train loss 2.2551, val loss 2.3156
+step 800: train loss 2.2439, val loss 2.2994
+step 900: train loss 2.2380, val loss 2.2985
+step 1000: train loss 2.2443, val loss 2.3109
+step 1100: train loss 2.2286, val loss 2.3198
+step 1200: train loss 2.2557, val loss 2.3080
+step 1300: train loss 2.2341, val loss 2.3015
+step 1400: train loss 2.2440, val loss 2.3119
+step 1500: train loss 2.2480, val loss 2.2986
+step 1600: train loss 2.2385, val loss 2.3087
+step 1700: train loss 2.2273, val loss 2.2877
+step 1800: train loss 2.2369, val loss 2.3079
+step 1900: train loss 2.2473, val loss 2.3229
+step 1999: train loss 2.2498, val loss 2.3243
+
+Average train loss: 2.3469
+Average val loss: 2.4113
+
+"Aninerplelend; bod o simerupt Jouds 
+"Azape outondemoplll, de rey m, pthed se ioruser, wid, t; ch thet sose fondinonjus. otheake che grse 
+"
+"Asth ppivelofotin ahiesthesomoril, tharomye the t sespehe tutowerthe bey ntherno thean antetofillsahathe s pre Mailsam the. ied y ck Amewian chen sede, t sthetharare. tshe onoryer t s t thasseme ain, hibe: ofld plad sim, abupr in pthe picofind he ate cavarormal t a sawhend h hearinded the tly thereeve: abo d, 
+"
+"
+"
+"
+"
+"As bepthe, woure ol, be he ted wil
